@@ -1,0 +1,11 @@
+.not-found-page {
+    display: grid;
+    gap: 1rem;
+    place-content: center;
+    text-align: center;
+
+    h1:first-of-type {
+        font-size: 10rem;
+        font-weight: 900;
+    }
+}

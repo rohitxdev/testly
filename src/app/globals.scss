@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+:root {
+
+	&[data-theme="light"] {
+		--primary-clr: #ffffff;
+		--secondary-clr: #18171b;
+	}
+
+	&[data-theme="dark"] {
+		--primary-clr: #18171b;
+		--secondary-clr: #ffffff;
+	}
+
+
+	overflow: hidden;
+}
+
+#root {
+	height: var(--vh, 100vh);
+	width: var(--vw, 100vw);
+	color: var(--secondary-clr);
+	background-color: var(--primary-clr);
+}
